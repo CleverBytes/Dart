@@ -11,7 +11,7 @@ You can learn more about from the following link :https://www.geeksforgeeks.org/
 // Chess board, A 2d List of integers
 
 List<List<int>> board = [];
-
+  List<int> passengerTimelineCount = List.filled(1001, 0);
 // checking is it safe place for a queen ?
 
 /*size : no of rows or columns of the given chess board 
